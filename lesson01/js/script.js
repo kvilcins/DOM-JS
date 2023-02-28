@@ -12,6 +12,8 @@ const propsItemFour = itemTwo.querySelector('.props__item_four');
 const itemSix = document.querySelector('.item_six');
 const propsItemTwo = itemSix.querySelectorAll('.props__item_two');
 
+const adv = document.querySelector('.ads');
+
 
 propsItem[2].after(propsItemFour);
 propsList[2].after(propsItemTwo[1]);
@@ -22,3 +24,5 @@ item[1].after(item[2]);
 item[2].after(item[3]);
 itemTitle[3].after(propsList[3]);
 itemTitle[2].after(propsList[4]);
+
+adv.remove();
